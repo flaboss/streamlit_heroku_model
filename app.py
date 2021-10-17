@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 # Load Model
-model = load_model('deployment_11102020')
+model = load_model('deployment_20211015')
 
 
 def run():
@@ -12,8 +12,8 @@ def run():
     from PIL import Image
     image_hospital = Image.open('hospital.jpg')
 
-    st.sidebar.info('This app is created using PyCaret and Strealit')
-    st.sidebar.success('https://youtube.com/KunaalNaik')
+    st.sidebar.info('This app is created using PyCaret and Streamlit')
+    st.sidebar.success('https://google.com')
     st.sidebar.image(image_hospital)
 
     st.title('Insurance Application')
