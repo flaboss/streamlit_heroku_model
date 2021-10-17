@@ -12,8 +12,9 @@ def run():
     from PIL import Image
     image_hospital = Image.open('hospital.jpg')
 
-    st.sidebar.info('This app is created using PyCaret and Streamlit')
-    st.sidebar.success('https://google.com')
+    st.sidebar.info('This app was created using PyCaret and Streamlit')
+    st.sidebar.success('''https://streamlit.io/  
+    https://pycaret.org/''')
     st.sidebar.image(image_hospital)
 
     st.title('Insurance Application')
@@ -42,8 +43,8 @@ def run():
         output = predict_model(model, data = input_df)
         output = '$' + str(output['Label'][0])
 
-    # Display
-    st.success('The Insurance amount is {}'.format(output))
+        # Display
+        st.success('The Insurance amount is {}'.format(output))
 
 
 

@@ -173,3 +173,85 @@
                 ['trained_model', LinearRegression(n_jobs=-1)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
 2021-10-16 23:49:56,174:INFO:Checking exceptions
 2021-10-16 23:49:56,174:INFO:Preloading libraries
+2021-10-17 14:19:58,880:INFO:Initializing load_model()
+2021-10-17 14:19:58,883:INFO:load_model(model_name=deployment_20211015, platform=None, authentication=None, verbose=True)
+2021-10-17 14:20:15,806:INFO:Initializing load_model()
+2021-10-17 14:20:15,807:INFO:load_model(model_name=deployment_20211015, platform=None, authentication=None, verbose=True)
+2021-10-17 14:20:16,639:INFO:Initializing load_model()
+2021-10-17 14:20:16,640:INFO:load_model(model_name=deployment_20211015, platform=None, authentication=None, verbose=True)
+2021-10-17 14:20:21,006:INFO:Initializing load_model()
+2021-10-17 14:20:21,007:INFO:load_model(model_name=deployment_20211015, platform=None, authentication=None, verbose=True)
+2021-10-17 14:20:23,445:INFO:Initializing load_model()
+2021-10-17 14:20:23,446:INFO:load_model(model_name=deployment_20211015, platform=None, authentication=None, verbose=True)
+2021-10-17 14:20:28,128:INFO:Initializing load_model()
+2021-10-17 14:20:28,132:INFO:load_model(model_name=deployment_20211015, platform=None, authentication=None, verbose=True)
+2021-10-17 14:20:29,861:INFO:Initializing load_model()
+2021-10-17 14:20:29,862:INFO:load_model(model_name=deployment_20211015, platform=None, authentication=None, verbose=True)
+2021-10-17 14:20:34,465:INFO:Initializing load_model()
+2021-10-17 14:20:34,466:INFO:load_model(model_name=deployment_20211015, platform=None, authentication=None, verbose=True)
+2021-10-17 14:20:36,984:INFO:Initializing load_model()
+2021-10-17 14:20:36,985:INFO:load_model(model_name=deployment_20211015, platform=None, authentication=None, verbose=True)
+2021-10-17 14:20:37,091:INFO:Initializing predict_model()
+2021-10-17 14:20:37,092:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs',
+                 DFS_Classic(interactions=['multiply'], ml_usecase='regression',
+                             n_jobs=-1, random_state=123, subclass='binary',
+                             target='charges',
+                             top_features_to_pick_percentage=None)),
+                ('pca', 'passthrough'),
+                ['trained_model', LinearRegression(n_jobs=-1)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-10-17 14:20:37,093:INFO:Checking exceptions
+2021-10-17 14:20:37,094:INFO:Preloading libraries
+2021-10-17 14:21:59,079:INFO:Initializing load_model()
+2021-10-17 14:21:59,082:INFO:load_model(model_name=deployment_20211015, platform=None, authentication=None, verbose=True)
+2021-10-17 14:22:22,307:INFO:Initializing load_model()
+2021-10-17 14:22:22,308:INFO:load_model(model_name=deployment_20211015, platform=None, authentication=None, verbose=True)
+2021-10-17 14:22:48,636:INFO:Initializing load_model()
+2021-10-17 14:22:48,640:INFO:load_model(model_name=deployment_20211015, platform=None, authentication=None, verbose=True)
+2021-10-17 14:23:23,142:INFO:Initializing load_model()
+2021-10-17 14:23:23,143:INFO:load_model(model_name=deployment_20211015, platform=None, authentication=None, verbose=True)
+2021-10-17 14:23:28,511:INFO:Initializing load_model()
+2021-10-17 14:23:28,512:INFO:load_model(model_name=deployment_20211015, platform=None, authentication=None, verbose=True)
+2021-10-17 14:23:28,632:INFO:Initializing predict_model()
+2021-10-17 14:23:28,634:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs',
+                 DFS_Classic(interactions=['multiply'], ml_usecase='regression',
+                             n_jobs=-1, random_state=123, subclass='binary',
+                             target='charges',
+                             top_features_to_pick_percentage=None)),
+                ('pca', 'passthrough'),
+                ['trained_model', LinearRegression(n_jobs=-1)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-10-17 14:23:28,634:INFO:Checking exceptions
+2021-10-17 14:23:28,634:INFO:Preloading libraries
+2021-10-17 14:24:16,162:INFO:Initializing load_model()
+2021-10-17 14:24:16,167:INFO:load_model(model_name=deployment_20211015, platform=None, authentication=None, verbose=True)

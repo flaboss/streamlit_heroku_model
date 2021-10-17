@@ -14,4 +14,4 @@ r2 = setup(data, target = "charges", session_id = 123,
 
 lr = create_model('lr')
 
-save_model(lr,model_name = 'deployment_11102020')
+save_model(lr,model_name = 'deployment_20211015')
